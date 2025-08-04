@@ -16,16 +16,11 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With hands-on experience in full-stack development, I specialize in building scalable, performant web apps using .NET Core, Blazor, and React—integrating APIs, modern UI frameworks, and database systems.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I'm passionate about turning ideas into elegant software solutions. Continuously exploring new tools and technologies, I strive to deliver products that are efficient, reliable, and user-focused.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -52,8 +47,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building robust full-stack applications using .NET Core, Blazor, React, and modern front-end tools.
                   </p>
                 </div>
               </div>
@@ -64,10 +58,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Message-Driven Systems</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Implementing asynchronous workflows with RabbitMQ, Kafka to ensure high performance and decoupled architecture.
                   </p>
                 </div>
               </div>
@@ -79,10 +72,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">System Integration</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Connecting services using REST APIs, GraphQL, and databases like SQL Server, PostgreSQL, and MongoDB.
                   </p>
                 </div>
               </div>

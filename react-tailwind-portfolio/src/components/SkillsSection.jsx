@@ -3,28 +3,38 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
+  { name: ".NET Core MVC", level: 95, category: "frontend" },
+  { name: ".NET Blazor", level: 95, category: "frontend" },
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "TypeScript", level: 85, category: "frontend" },
+  { name: "Bootstrap", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
   { name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
+  { name: ".NET Core Web API", level: 95, category: "backend" },
+  { name: "REST APIs", level: 90, category: "backend" },
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
-
+  { name: "GraphQL", level: 70, category: "backend" },
+  { name: "RabbitMQ", level: 60, category: "backend" },
+  
+  // Databases
+  { name: "SQL Server", level: 90, category: "databases" },
+  { name: "PostgreSQL", level: 90, category: "databases" },
+  { name: "MySql", level: 80, category: "databases" },
+  { name: "MongoDB", level: 75, category: "databases" },
+  
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
+  { name: "Visual Studio", level: 95, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 50, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "databases", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
