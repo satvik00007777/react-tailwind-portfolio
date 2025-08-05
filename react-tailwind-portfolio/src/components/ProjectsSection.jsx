@@ -6,7 +6,7 @@ const projects = [
     title: "Weather App",
     description: "A beautiful Weather app using React and Tailwind.",
     image: "/projects/weather.webp",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "APIs"],
     demoUrl: "https://satvik00007777.github.io/weather-app",
     githubUrl: "https://github.com/satvik00007777/weather-app",
   },
@@ -16,7 +16,7 @@ const projects = [
     description:
       "Interactive movies dashboard app with data visualization and filtering capabilities.",
     image: "/projects/movies.jpg",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: [" Blazor .NET Core", "JWT", "SQL Server"],
     demoUrl: "https://github.com/satvik00007777/Blazor-Todo-App",
     githubUrl: "https://github.com/satvik00007777/Blazor-Todo-App",
   },
@@ -26,7 +26,7 @@ const projects = [
     description:
       "Full-featured parking management platform with user authentication and role based authorization.",
     image: "/projects/parking.jpg",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "Node.js", "MongoDB"],
     demoUrl: "https://parking-management-system-steel.vercel.app/",
     githubUrl: "https://github.com/satvik00007777/parking-management-system",
   },
