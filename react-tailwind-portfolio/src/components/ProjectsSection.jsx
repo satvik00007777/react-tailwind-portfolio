@@ -7,7 +7,7 @@ const projects = [
     description: "A beautiful Weather app using React and Tailwind.",
     image: "/projects/weather.webp",
     tags: ["React", "TailwindCSS", "APIs"],
-    demoUrl: "https://satvik00007777.github.io/weather-app",
+    demoUrl: "https://weather-app-liard-eta-84.vercel.app/",
     githubUrl: "https://github.com/satvik00007777/weather-app",
   },
   {
