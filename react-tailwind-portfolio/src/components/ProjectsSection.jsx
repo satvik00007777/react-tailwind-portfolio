@@ -3,18 +3,18 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    title: "Weather App",
+    description: "A beautiful Weather app using React and Tailwind.",
+    image: "/projects/weather.webp",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://satvik00007777.github.io/weather-app",
+    githubUrl: "https://github.com/satvik00007777/weather-app",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: ".NET Blazor App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Interactive movies dashboard app with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "#",
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/satvik00007777"
           >
             Check My Github <ArrowRight size={16} />
           </a>
