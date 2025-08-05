@@ -15,20 +15,20 @@ const projects = [
     title: ".NET Blazor App",
     description:
       "Interactive movies dashboard app with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+    image: "/projects/movies.jpg",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/satvik00007777/Blazor-Todo-App",
+    githubUrl: "https://github.com/satvik00007777/Blazor-Todo-App",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Parking Management System",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+      "Full-featured parking management platform with user authentication and role based authorization.",
+    image: "/projects/parking.jpg",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://parking-management-system-steel.vercel.app/",
+    githubUrl: "https://github.com/satvik00007777/parking-management-system",
   },
 ];
 
